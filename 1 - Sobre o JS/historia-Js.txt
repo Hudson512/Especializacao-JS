@@ -1,0 +1,19 @@
+JavaScript é a linguagem de programação da Web. A ampla maioria dos sites modernos usa 
+JavaScript e todos os navegadores modernos – em computadores de mesa, consoles de jogos, tablets 
+e smartphones – incluem interpretadores JavaScript, tornando-a a linguagem de programação mais 
+onipresente da história.
+
+JavaScript faz parte da tríade de tecnologias que todos os desenvolvedores 
+Web devem conhecer: HTML, para especificar o conteúdo de páginas Web; CSS, para especificar 
+a apresentação dessas páginas; e JavaScript, para especificar o comportamento delas. Este livro o 
+ajudará a dominar a linguagem.
+
+Se você já conhece outras linguagens de programação, talvez ajude saber que JavaScript é uma linguagem de alto nível, dinâmica, interpretada e não tipada, conveniente para estilos de programação 
+orientados a objetos e funcionais. A sintaxe de JavaScript é derivada da linguagem Java, das funções 
+de primeira classe de Scheme e da herança baseada em protótipos de Self. Mas não é preciso conhecer essas linguagens nem estar familiarizado com esses termos para utilizar este livro e aprender 
+JavaScript.
+
+Na verdade, o nome “JavaScript” é um pouco enganoso. A não ser pela semelhança sintática superficial, JavaScript é completamente diferente da linguagem de programação Java. E JavaScript já deixou 
+para trás suas raízes como linguagem de script há muito tempo, tornando-se uma linguagem de uso 
+geral robusta e eficiente. A versão mais recente da linguagem (veja o quadro) define novos recursos 
+para desenvolvimento de software em grande escala
