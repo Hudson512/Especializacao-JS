@@ -1,0 +1,25 @@
+Métodos de array de ECMAScript 5
+ECMAScript 5 define nove novos métodos de array para iterar, mapear, filtrar, testar, reduzir e pesquisar arrays. As subseções a seguir descrevem esses métodos.
+
+1 forEach()
+
+O método forEach() itera por um array, chamando uma função especificada para cada elemento. 
+Conforme descrito, a função é passada como primeiro argumento para forEach(). Então, forEach()
+chama a função com três argumentos: o valor do elemento do array, o índice do elemento e o array 
+em si. Se você só tem interesse no valor do elemento do array, pode escrever uma função com apenas 
+um parâmetro – os argumentos adicionais serão ignorados:
+
+var data = [1,2,3,4,5]; 				// Um array para soma
+/* Calcula a soma dos elementos do array */
+var sum = 0; 						// Começa em 0
+data.forEach(function(value) { sum += value; }); 	// Adiciona cada value em sum
+sum 							// => 15
+// Agora incrementa cada elemento do array
+data.forEach(function(v, i, a) { a[i] = v + 1; });
+data // => [2,3,4,5,6]
+
+2 map()
+
+O método map() passa cada elemento do array em que é chamado para a função especificada e retorna um array contendo os valores retornados por essa função. Por exemplo:
+var a = [1, 2, 3];
+var b = a.map(function(x) { return x*x; }); 	// b é [1, 4, 9]
